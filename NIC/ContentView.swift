@@ -6,6 +6,27 @@
 //
 
 import SwiftUI
+import SwiftData
+
+struct VibrantCardModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .frame(width:300)
+            .textFieldStyle(.roundedBorder)
+            .cornerRadius(20)
+            .fixedSize(horizontal: true, vertical: false)
+            .padding(.horizontal, 20)
+            .autocorrectionDisabled(true)
+    }
+}
+
+extension View {
+    func vibrantCard() -> some View {
+        self.modifier(VibrantCardModifier())
+    }
+}
+                
+  
 
 struct ContentView: View {
     var body: some View {

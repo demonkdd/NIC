@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+import PhotosUI
+import SwiftData
 
 @main
 struct NICApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           LoginPage()
         }
     }
 }

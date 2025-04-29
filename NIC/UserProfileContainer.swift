@@ -6,3 +6,12 @@
 //
 
 import Foundation
+import SwiftData
+import PhotosUI
+
+class SaveManager {
+    
+    func save(context: ModelContext,Name: String, PreferredName: String, Email: String, Pronouns: String) throws {
+      var 
+    }
+}
