@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		74D8D31F2DC10FD000F12E72 /* Exceptions for "NIC" folder in "NIC" target */ = {
+		C00A2B692DC15D4A005A4D73 /* Exceptions for "NIC" folder in "NIC" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -43,7 +43,7 @@
 		74A1D0F82DBFB5A100718E7A /* NIC */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				74D8D31F2DC10FD000F12E72 /* Exceptions for "NIC" folder in "NIC" target */,
+				C00A2B692DC15D4A005A4D73 /* Exceptions for "NIC" folder in "NIC" target */,
 			);
 			path = NIC;
 			sourceTree = "<group>";
@@ -56,6 +56,11 @@
 		74A1D1102DBFB5A200718E7A /* NICUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = NICUITests;
+			sourceTree = "<group>";
+		};
+		C00A2B0A2DC1489D005A4D73 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,6 +93,7 @@
 		74A1D0ED2DBFB5A100718E7A = {
 			isa = PBXGroup;
 			children = (
+				C00A2B0A2DC1489D005A4D73 /* Views */,
 				74A1D0F82DBFB5A100718E7A /* NIC */,
 				74A1D1062DBFB5A200718E7A /* NICTests */,
 				74A1D1102DBFB5A200718E7A /* NICUITests */,
@@ -122,6 +128,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				74A1D0F82DBFB5A100718E7A /* NIC */,
+				C00A2B0A2DC1489D005A4D73 /* Views */,
 			);
 			name = NIC;
 			packageProductDependencies = (
@@ -408,13 +415,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = NIC/NIC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D8YAZLSYXR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NIC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -438,13 +443,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = NIC/NIC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D8YAZLSYXR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NIC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
