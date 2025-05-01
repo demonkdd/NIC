@@ -5,13 +5,18 @@
 //  Created by Cameron Slaughter on 4/29/25.
 //
 
-import Foundation
-import SwiftData
-import PhotosUI
+import SwiftUI
 
-class SaveManager {
-    
-    func save(context: ModelContext,Name: String, PreferredName: String, Email: String, Pronouns: String) throws {
-      var 
+struct UserProfileContainer: View {
+    @StateObject private var profileVM = ProfileViewModel()
+
+    var body: some View {
+        NavigationStack {
+            DashboardView()
+                .environmentObject(profileVM)
+        }
+        .onAppear {
+            profileVM.load()
+        }
     }
 }
