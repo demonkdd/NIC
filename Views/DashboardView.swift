@@ -76,4 +76,10 @@ struct DashboardView: View {
     }
 }
 
+<<<<<<< HEAD
 
+=======
+#Preview {
+    DashboardView()
+}
+>>>>>>> main
