@@ -43,3 +43,5 @@ struct ProfilePage: View {
 #Preview {
     ProfilePage()
 }
+//need a skip button on profile set up
+

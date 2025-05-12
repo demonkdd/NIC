@@ -59,3 +59,7 @@ struct QuizView: View {
         .navigationTitle(topic.name)
     }
 }
+
+//#Preview {
+//    QuizView(topic: <#Topic#>, viewModel: <#QuizViewModel#>)
+//}

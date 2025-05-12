@@ -76,4 +76,6 @@ struct DashboardView: View {
     }
 }
 
-
+#Preview {
+    DashboardView()
+}
