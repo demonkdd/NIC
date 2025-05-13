@@ -10,10 +10,7 @@ import Foundation
 struct UserProfile: Codable {
     var name: String
     var pronouns: String
-<<<<<<< HEAD
-=======
     var email: String
->>>>>>> main
     var avatar: String
     var earnedBadgeIDs: [String]
 }

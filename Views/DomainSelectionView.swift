@@ -15,11 +15,9 @@ struct DomainSelectionView: View {
                     .font(.title)
                     .bold()
 
-<<<<<<< HEAD
-                NavigationLink(destination: HomeView()) {
-=======
+
                 NavigationLink(destination: DesignTopicsView()) {
->>>>>>> main
+
                     Label("Design", systemImage: "paintbrush")
                         .font(.headline)
                         .padding()
@@ -55,11 +53,8 @@ struct DomainSelectionView: View {
         }
     }
 }
-<<<<<<< HEAD
 
-=======
 #Preview {
     DomainSelectionView()
         .environmentObject(BadgeManager())
 }
->>>>>>> main

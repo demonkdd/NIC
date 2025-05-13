@@ -7,22 +7,18 @@
 import SwiftUI
 
 struct OnboardingView: View {
-<<<<<<< HEAD
-    @State private var currentPage = 0
-    @AppStorage("hasSeenOnboarding") var hasSeenOnboarding: Bool = false
 
-=======
     @EnvironmentObject var badgeManager: BadgeManager
     @State private var currentPage = 0
     @AppStorage("hasSeenOnboarding") var hasSeenOnboarding: Bool = false
     
->>>>>>> main
+
     let pages = [
         OnboardingPage(title: "Welcome to NIC Guide", subtitle: "Master Human Interface Guidelines one principle at a time.", imageName: "sparkles"),
         OnboardingPage(title: "Learn Design Fundamentals", subtitle: "Explore clarity, consistency, depth, and more.", imageName: "rectangle.stack.fill"),
         OnboardingPage(title: "Earn Badges", subtitle: "Track your progress and collect badges for each principle.", imageName: "checkmark.seal.fill")
     ]
-<<<<<<< HEAD
+
 
     var body: some View {
         VStack {
@@ -68,7 +64,7 @@ struct OnboardingView: View {
                     .cornerRadius(10)
             }
             .padding()
-=======
+
     
     var body: some View {
         NavigationStack {
@@ -118,7 +114,7 @@ struct OnboardingView: View {
                 }
                 .padding()
             }
->>>>>>> main
+
         }
     }
 }
@@ -128,10 +124,9 @@ struct OnboardingPage {
     let subtitle: String
     let imageName: String
 }
-<<<<<<< HEAD
-=======
+
 #Preview {
     OnboardingView()
         .environmentObject(BadgeManager())
 }
->>>>>>> main
+

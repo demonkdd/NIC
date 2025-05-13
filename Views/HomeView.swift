@@ -63,9 +63,8 @@ struct HomeView: View {
         }
     }
 }
-<<<<<<< HEAD
-=======
+
 #Preview {
     HomeView()
 }
->>>>>>> main
+

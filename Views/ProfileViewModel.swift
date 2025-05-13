@@ -8,11 +8,11 @@
 import Foundation
 
 class ProfileViewModel: ObservableObject {
-<<<<<<< HEAD
-    @Published var profile = UserProfile(name: "", pronouns: "", avatar: "", earnedBadgeIDs: [])
-=======
+
+    
+
     @Published var profile = UserProfile(name: "", pronouns: "",email:"" , avatar: "", earnedBadgeIDs: [])
->>>>>>> main
+
 
     func save() {
         if let encoded = try? JSONEncoder().encode(profile) {
@@ -27,9 +27,8 @@ class ProfileViewModel: ObservableObject {
         }
     }
 }
-<<<<<<< HEAD
-=======
+
 //need a skip button on profile set up
 //only need to save name and badges, and book marks other stuff doesnt matter
 // .presentationDetents([.medium]) this is for sheets to tell it how much screen to cover
->>>>>>> main
+

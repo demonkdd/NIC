@@ -73,3 +73,7 @@ struct BadgeCardView: View {
     }
 }
 
+#Preview {
+    BadgesView()
+        .environmentObject(BadgeManager())
+}
