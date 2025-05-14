@@ -14,7 +14,8 @@ struct NICApp: App {
 
     var body: some Scene {
         WindowGroup {
-            RootView()
+           // DesignTopicsView()
+            AppTabBarView()
                 .environmentObject(badgeManager)
         }
     }

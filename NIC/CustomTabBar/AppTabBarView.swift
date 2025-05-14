@@ -20,17 +20,17 @@ struct AppTabBarView: View {
                         Image(systemName: "house")
                         Text("Home")
                     }
-                DomainSelectionView()
+                DesignTopicsView()
                     .tabItem {
                         Image(systemName: "globe")
-                        Text("Domain")
+                        Text("Topics")
                     }
                 BookMarkPageView()
                     .tabItem {
                         Image(systemName: "bookmark")
                         Text("Favourites")
                     }
-                Color.green
+                SearchView()
                     .tabItem {
                         Image(systemName: "magnifyingglass")
                         Text("Profile")
@@ -45,3 +45,5 @@ struct AppTabBarView: View {
         .environmentObject(BadgeManager())
 }
 //search bar needs suggestion but once they start typing it'll show them where what they're searching for exist
+// home page is the topic page, book marks available there as well as the profile search doesnt need a page it'll just be a search navigation bar is scrapped just a normal back button
+//possibly no profile page will just go straight to badges
