@@ -14,7 +14,7 @@ struct DashboardView: View {
     var body: some View {
         NavigationStack {
             VStack(alignment: .leading, spacing: 24) {
-               // Text("Welcome, \(profileVM.profile.name)")
+                Text("Welcome, \(profileVM.profile.name)")
                     .font(.largeTitle)
                     .fontWeight(.bold)
 
@@ -76,10 +76,7 @@ struct DashboardView: View {
     }
 }
 
-<<<<<<< HEAD
-
-=======
 #Preview {
     DashboardView()
 }
->>>>>>> main
+

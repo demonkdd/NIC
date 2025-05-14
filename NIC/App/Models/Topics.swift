@@ -7,6 +7,8 @@
 
 import Foundation
 
+
+//if you add assets as a property, make sure to update each item
 let sampleTopics: [Topic] = [
     Topic(name: "Accessibility", symbol: "figure.roll", description: "Design apps usable by everyone, including those with disabilities.", link: "https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/"),
     Topic(name: "Adaptivity", symbol: "rectangle.3.offgrid.bubble.left", description: "Create interfaces that adapt to different screens and contexts.", link: "https://developer.apple.com/design/human-interface-guidelines/platforms/adaptivity/"),

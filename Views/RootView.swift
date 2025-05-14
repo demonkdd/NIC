@@ -17,7 +17,8 @@ struct RootView: View {
                 UserProfileContainer()
                     .environmentObject(profileVM)
                     .environmentObject(badgeManager)
-            } else {
+            }
+            else {
                 OnboardingView()
                     .environmentObject(badgeManager)
             }

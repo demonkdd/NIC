@@ -22,7 +22,7 @@ struct QuizView: View {
                     .font(.title2)
                     .multilineTextAlignment(.center)
 
-                ForEach(viewModel.questions[viewModel.currentQuestionIndex].options, id: \.self) { option in
+                ForEach(viewModel.questions[viewModel.currentQuestionIndex].answers, id: \.self) { option in
                     Button(action: {
                         viewModel.answerQuestion(with: option)
                         if viewModel.isCompleted && viewModel.score >= 4 {
