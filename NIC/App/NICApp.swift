@@ -16,6 +16,7 @@ struct NICApp: App {
         WindowGroup {
            // DesignTopicsView()
             AppTabBarView()
+//            TopicListView(topics: sampleTopics)
                 .environmentObject(badgeManager)
         }
     }

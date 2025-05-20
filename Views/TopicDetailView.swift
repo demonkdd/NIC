@@ -14,7 +14,7 @@ struct TopicSection: Identifiable, Hashable {
 
 struct TopicDetailView: View {
     let topic: Topic
-
+    
     // Placeholder data — ideally fetched or defined per topic
     let sections: [TopicSection] = [
         TopicSection(
@@ -34,40 +34,42 @@ struct TopicDetailView: View {
             ]
         )
     ]
-
+    
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 24) {
-                Text(topic.name)
-                    .font(.largeTitle)
-                    .bold()
-
-                ForEach(sections) { section in
-                    VStack(alignment: .leading, spacing: 12) {
-                        Text(section.title)
-                            .font(.title2)
-                            .bold()
-
-                        ForEach(Array(section.points), id: \.self) { point in
-                            Label(point, systemImage: "circle.fill")
-                                .font(.body)
-                                .foregroundColor(.primary)
+            ScrollView {
+                VStack(alignment: .leading, spacing: 24) {
+                    Text(topic.name)
+                        .font(.largeTitle)
+                        .bold()
+                    
+                    ForEach(sections) { section in
+                        VStack(alignment: .leading, spacing: 12) {
+                            Text(section.title)
+                                .font(.title2)
+                                .bold()
+                            
+                            ForEach(Array(section.points), id: \.self) { point in
+                                Label(point, systemImage: "circle.fill")
+                                    .font(.body)
+                                    .foregroundColor(.primary)
+                            }
                         }
                     }
+                    
+                    Link(destination: URL(string: topic.link)!) {
+                        Text("Read more on Apple’s Human Interface Guidelines")
+                            .font(.callout)
+                            .underline()
+                            .foregroundColor(.blue)
+                            .padding(.top)
+                    }
                 }
-
-                Link(destination: URL(string: topic.link)!) {
-                    Text("Read more on Apple’s Human Interface Guidelines")
-                        .font(.callout)
-                        .underline()
-                        .foregroundColor(.blue)
-                        .padding(.top)
-                }
+                .padding()
             }
-            .padding()
+            .navigationTitle(topic.name)
+            .navigationBarTitleDisplayMode(.inline)
         }
-        .navigationTitle(topic.name)
-        .navigationBarTitleDisplayMode(.inline)
     }
-}
+
+
 
