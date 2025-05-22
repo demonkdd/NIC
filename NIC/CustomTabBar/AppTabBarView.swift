@@ -20,7 +20,13 @@ struct AppTabBarView: View {
                         Image(systemName: "house")
                         Text("Home")
                     }
-                DesignTopicsView()
+<<<<<<< HEAD
+
+               TopicListView(topics: sampleTopics)
+
+=======
+               TopicListView(topics: sampleTopics)
+>>>>>>> main
                     .tabItem {
                         Image(systemName: "globe")
                         Text("Topics")
