@@ -13,7 +13,7 @@ class QuizViewModel: ObservableObject {
     @Published var userAnswers: [String] = []
     @Published var isCompleted = false
 
-    let questions: [QuizQuestion]
+    @Published var questions: [QuizQuestion]
 
     init(questions: [QuizQuestion]) {
         self.questions = questions

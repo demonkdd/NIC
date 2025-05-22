@@ -20,16 +20,22 @@ struct SearchView: View {
     }
     
     var body: some View {
-        NavigationView {
-            VStack {
-                if searchTerm.isEmpty {
-                    Text("Search for a topic")
-                        .font(.title.weight(.bold))
-                    Text("Find a topic you would like to study")
-                        .multilineTextAlignment(.center)
-                } else {
-                    ForEach(searchResults, id: \.self) { result in
-                        Text(result.name)
+        NavigationStack {
+            List {
+                VStack {
+                    if searchTerm.isEmpty {
+                        Text("Search for a topic")
+                            .font(.title.weight(.bold))
+                        Text("Find a topic you would like to study")
+                            .multilineTextAlignment(.center)
+                    } else {
+                        ForEach(searchResults, id: \.self) { result in
+                            NavigationLink {
+                                Text(result.name)
+                            } label: {
+                                Text(result.name)
+                            }
+                        }
                     }
                 }
             }
