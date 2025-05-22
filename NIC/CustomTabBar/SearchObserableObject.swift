@@ -18,7 +18,7 @@ class SearchObserableObject: ObservableObject {
                           Topic(name: "Depth", symbol: "cube", description: "Use depth to establish visual hierarchy and convey interactivity.", link: "https://developer.apple.com/design/human-interface-guidelines/foundations/depth/"),
                           Topic(name: "Icons", symbol: "app", description: "Use SF Symbols and system icons effectively and consistently.", link: "https://developer.apple.com/design/human-interface-guidelines/foundations/icons/"),
                           Topic(name: "Typography", symbol: "textformat", description: "Use text styles and typographic systems for clear communication.", link: "https://developer.apple.com/design/human-interface-guidelines/foundations/typography/"),
-                          Topic(name: "User Control", symbol: "slider.horizontal.3", description: "Empower users by giving them control over actions and preferences.", link: "https://developer.apple.com/design/human-interface-guidelines/foundations/user-control/")    ]
+                          Topic(name: "User Control", symbol: "slider.horizontal.3", description: "Empower users by giving them control over actions and preferences.", link: "https://developer.apple.com/design/human-interface-guidelines/foundations/user-control/") ]
     @Published var searchResults: [Topic] = []
     
     init() {
