@@ -11,9 +11,9 @@ struct ColorMod: View {
         InfoCard(title: "Disgestible Bite", description: "System colors adapt automatically for dark mode and accessibility settings."),
         InfoCard(title: "Pro Tip:", description: "Use semantic colors (like systemBlue) instead of custom hex values whenever possible."),
         InfoCard(title: "Try This:", description: "Run your design through a color contrast checker. Does it pass WCAG AA standards?"),
-        InfoCard(title: "📏 Numerical Guidelines:", description: "Use semantic colors: systemRed, label, background, etc.",
-                 "Avoid hardcoded RGB—use UIColor.label, UIColor.systemBackground.",
-                "Maintain 4.5:1 contrast for normal text, 3:1 for large text."),
+//        InfoCard(title: "📏 Numerical Guidelines:", description: "Use semantic colors: systemRed, label, background, etc.",
+//                 "Avoid hardcoded RGB—use UIColor.label, UIColor.systemBackground.",
+//                "Maintain 4.5:1 contrast for normal text, 3:1 for large text."),
         
     ]
     

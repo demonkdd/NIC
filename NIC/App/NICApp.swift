@@ -15,7 +15,8 @@ struct NICApp: App {
     var body: some Scene {
         WindowGroup {
            // DesignTopicsView()
-            QuizPageView()
+            //QuizPageView()
+            PlatformTab()
 //            TopicListView(topics: sampleTopics)
                 .environmentObject(badgeManager)
         }

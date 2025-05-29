@@ -23,7 +23,8 @@ class QuizViewModel: ObservableObject {
     func answerQuestion(with choice: String) {
         guard !isCompleted else { return }
 
-        userAnswers[currentQuestionIndex] = choice
+        userAnswers.append(choice)
+        currentQuestionIndex = userAnswers.endIndex - 1
         if questions[currentQuestionIndex].correctAnswer == choice {
             score += 1
         }

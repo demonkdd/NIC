@@ -12,9 +12,9 @@ struct LayoutMod: View {
         InfoCard(title: "Pro Tip:", description: "Use Apple’s safe areas and spacing recommendations to maintain visual harmony on all devices."),
         InfoCard(title: "Pro Tip:", description: "Use Apple’s safe areas and spacing recommendations to maintain visual harmony on all devices."),
         InfoCard(title: "Try This:", description: "Test your layout at the smallest and largest Dynamic Type settings. Does everything still look balanced?"),
-        InfoCard(title: "📏 Numerical Guidelines:", description: "Horizontal padding: 16pt (edge), 20pt (content areas).",
-                "Vertical spacing: 8pt between items, 24pt between sections.",
-                 "Respect Safe Areas (automatically applied in SwiftUI/UIKit)."),
+//        InfoCard(title: "📏 Numerical Guidelines:", description: "Horizontal padding: 16pt (edge), 20pt (content areas).",
+//                "Vertical spacing: 8pt between items, 24pt between sections.",
+//                 "Respect Safe Areas (automatically applied in SwiftUI/UIKit)."),
         
     ]
     

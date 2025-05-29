@@ -11,8 +11,8 @@ struct SFSymbolMod: View {
         InfoCard(title: "Digestible Bite", description: "Using SF Symbols ensures your icons match Apple’s visual language and support accessibility features."),
         InfoCard(title: "Pro Tip:", description: "Use system-provided icons where possible—especially for common actions like delete, share, and edit."),
         InfoCard(title: "Try This:", description: "Replace any PNG icons in your design with an equivalent SF Symbol and check for visual consistency."),
-        InfoCard(title: "📏 Numerical Guidelines:", description: "Use SF Symbols with UIFont.TextStyle to auto-size with text.",
-                 "Match icon sizes to text sizes (e.g., 17pt Body text → 17pt symbol)."),
+//        InfoCard(title: "📏 Numerical Guidelines:", description: "Use SF Symbols with UIFont.TextStyle to auto-size with text.",
+//                 "Match icon sizes to text sizes (e.g., 17pt Body text → 17pt symbol)."),
         
     ]
     

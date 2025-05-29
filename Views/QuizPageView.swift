@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct QuizPageView: View {
-    @StateObject private var vm = QuizViewModel(questions: [])
+   @StateObject private var vm = QuizViewModel(questions: [])
     @State private var showingConfirmation = false
     @State private var backgroundColor = Color.white
     @State private var quiz: QuizQuestion?
