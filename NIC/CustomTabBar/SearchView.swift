@@ -30,11 +30,10 @@ struct SearchView: View {
                             .multilineTextAlignment(.center)
                     } else {
                         ForEach(searchResults, id: \.self) { result in
-                            NavigationLink {
-                                Text(result.name)
-                            } label: {
-                                Text(result.name)
+                            NavigationLink (result.name){
+                                TopicDetailView(topic: result)
                             }
+                            
                         }
                     }
                 }
@@ -67,3 +66,10 @@ struct SearchView: View {
     SearchView()
         .environmentObject(BadgeManager())
 }
+
+//{
+//   Text(result.name)
+//} label: {
+//   Text(result.name)
+//}
+//NavigationLink(searchResults, destination: [Topic])
