@@ -36,6 +36,7 @@ struct ConsistencyMod: View {
                     }
                     
                 }
+                .navigationTitle(Text("Consistency"))
             }
                 }
         RoundedRectangle (cornerRadius: 20)

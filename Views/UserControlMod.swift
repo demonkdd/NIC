@@ -38,6 +38,7 @@ struct UserControlMod: View {
                     }
                     
                 }
+                .navigationTitle(Text("User Control"))
             }
                 }
         RoundedRectangle (cornerRadius: 20)

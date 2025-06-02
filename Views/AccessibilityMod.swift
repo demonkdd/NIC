@@ -45,6 +45,7 @@ struct AccessibilityMod: View {
                     }
                     
                 }
+                .navigationTitle(Text("Accessibility"))
             }
                 }
         RoundedRectangle (cornerRadius: 20)
@@ -55,7 +56,6 @@ struct AccessibilityMod: View {
                     .foregroundColor(.white)
                     .font(.headline)
                     .padding()
-                
                 
             }
             

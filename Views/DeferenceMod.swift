@@ -38,6 +38,7 @@ struct DeferenceMod: View {
                     }
                     
                 }
+                .navigationTitle(Text("Deference"))
             }
                 }
         RoundedRectangle (cornerRadius: 20)

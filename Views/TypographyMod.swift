@@ -39,6 +39,7 @@ struct TypographyMod: View {
                     }
                     
                 }
+                .navigationTitle(Text("Typography"))
             }
                 }
         RoundedRectangle (cornerRadius: 20)

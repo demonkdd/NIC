@@ -39,6 +39,7 @@ struct ColorMod: View {
                     }
                     
                 }
+                .navigationTitle(Text("Color"))
             }
                 }
         RoundedRectangle (cornerRadius: 20)

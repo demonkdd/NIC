@@ -38,6 +38,7 @@ struct DepthMod: View {
                     }
                     
                 }
+                .navigationTitle(Text("Depth"))
             }
                 }
         RoundedRectangle (cornerRadius: 20)

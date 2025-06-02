@@ -38,6 +38,7 @@ struct SFSymbolMod: View {
                     }
                     
                 }
+                .navigationTitle(Text("SF Symbols"))
             }
                 }
         RoundedRectangle (cornerRadius: 20)

@@ -83,7 +83,7 @@ struct PlatformTab: View {
                             
                         }
                         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
-                        .navigationTitle(Text("Aesthetic Integrity"))
+                        
                         
                         
                         

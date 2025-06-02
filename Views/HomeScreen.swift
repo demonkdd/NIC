@@ -42,6 +42,90 @@ struct HomeScreen: View {
                                 .font(.system(size: 20, weight: .medium, design: .rounded))
                     }
                 }
+                    NavigationLink {
+                        ConsistencyMod()
+                    } label: {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 20)
+                                .frame(width: 170, height: 170)
+                                .foregroundColor(.gray)
+                            Text("Consistency Mod")
+                                .foregroundColor(.black)
+                                .font(.system(size: 20, weight: .medium, design: .rounded))
+                    }
+                }
+                    NavigationLink {
+                        DeferenceMod()
+                    } label: {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 20)
+                                .frame(width: 170, height: 170)
+                                .foregroundColor(.gray)
+                            Text("Deference Mod")
+                                .foregroundColor(.black)
+                                .font(.system(size: 20, weight: .medium, design: .rounded))
+                    }
+                }
+                    NavigationLink {
+                        DepthMod()
+                    } label: {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 20)
+                                .frame(width: 170, height: 170)
+                                .foregroundColor(.gray)
+                            Text("Depth Mod")
+                                .foregroundColor(.black)
+                                .font(.system(size: 20, weight: .medium, design: .rounded))
+                    }
+                }
+                    NavigationLink {
+                        LayoutMod()
+                    } label: {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 20)
+                                .frame(width: 170, height: 170)
+                                .foregroundColor(.gray)
+                            Text("Layout Mod")
+                                .foregroundColor(.black)
+                                .font(.system(size: 20, weight: .medium, design: .rounded))
+                    }
+                }
+                    NavigationLink {
+                        SFSymbolMod()
+                    } label: {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 20)
+                                .frame(width: 170, height: 170)
+                                .foregroundColor(.gray)
+                            Text("SFSymbol Mod")
+                                .foregroundColor(.black)
+                                .font(.system(size: 20, weight: .medium, design: .rounded))
+                    }
+                }
+                    NavigationLink {
+                        TypographyMod()
+                    } label: {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 20)
+                                .frame(width: 170, height: 170)
+                                .foregroundColor(.gray)
+                            Text("Typography Mod")
+                                .foregroundColor(.black)
+                                .font(.system(size: 20, weight: .medium, design: .rounded))
+                    }
+                }
+                    NavigationLink {
+                        UserControlMod()
+                    } label: {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 20)
+                                .frame(width: 170, height: 170)
+                                .foregroundColor(.gray)
+                            Text("Accessibility Mod")
+                                .foregroundColor(.black)
+                                .font(.system(size: 20, weight: .medium, design: .rounded))
+                    }
+                }
 //                    ForEach(data, \.self) { String in
 //                            ZStack {
 //                            RoundedRectangle(cornerRadius: 20)

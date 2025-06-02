@@ -40,6 +40,7 @@ struct LayoutMod: View {
                     }
                     
                 }
+                .navigationTitle(Text("Layout"))
             }
                 }
         RoundedRectangle (cornerRadius: 20)
