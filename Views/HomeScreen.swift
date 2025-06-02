@@ -24,9 +24,9 @@ struct HomeScreen: View {
                             ZStack {
                                 RoundedRectangle(cornerRadius: 20)
                                     .frame(width: 170, height: 170)
-                                    .foregroundColor(.gray)
+                                    .foregroundColor(.blue)
                                 Text("Accessibility Mod")
-                                    .foregroundColor(.black)
+                                    .foregroundColor(.white)
                                     .font(.system(size: 20, weight: .medium, design: .rounded))
                         }
                     }
@@ -36,9 +36,9 @@ struct HomeScreen: View {
                         ZStack {
                             RoundedRectangle(cornerRadius: 20)
                                 .frame(width: 170, height: 170)
-                                .foregroundColor(.gray)
+                                .foregroundColor(.blue)
                             Text("Color Mod")
-                                .foregroundColor(.black)
+                                .foregroundColor(.white)
                                 .font(.system(size: 20, weight: .medium, design: .rounded))
                     }
                 }
@@ -48,9 +48,9 @@ struct HomeScreen: View {
                         ZStack {
                             RoundedRectangle(cornerRadius: 20)
                                 .frame(width: 170, height: 170)
-                                .foregroundColor(.gray)
+                                .foregroundColor(.blue)
                             Text("Consistency Mod")
-                                .foregroundColor(.black)
+                                .foregroundColor(.white)
                                 .font(.system(size: 20, weight: .medium, design: .rounded))
                     }
                 }
@@ -60,9 +60,9 @@ struct HomeScreen: View {
                         ZStack {
                             RoundedRectangle(cornerRadius: 20)
                                 .frame(width: 170, height: 170)
-                                .foregroundColor(.gray)
+                                .foregroundColor(.blue)
                             Text("Deference Mod")
-                                .foregroundColor(.black)
+                                .foregroundColor(.white)
                                 .font(.system(size: 20, weight: .medium, design: .rounded))
                     }
                 }
@@ -72,9 +72,9 @@ struct HomeScreen: View {
                         ZStack {
                             RoundedRectangle(cornerRadius: 20)
                                 .frame(width: 170, height: 170)
-                                .foregroundColor(.gray)
+                                .foregroundColor(.blue)
                             Text("Depth Mod")
-                                .foregroundColor(.black)
+                                .foregroundColor(.white)
                                 .font(.system(size: 20, weight: .medium, design: .rounded))
                     }
                 }
@@ -84,9 +84,9 @@ struct HomeScreen: View {
                         ZStack {
                             RoundedRectangle(cornerRadius: 20)
                                 .frame(width: 170, height: 170)
-                                .foregroundColor(.gray)
+                                .foregroundColor(.blue)
                             Text("Layout Mod")
-                                .foregroundColor(.black)
+                                .foregroundColor(.white)
                                 .font(.system(size: 20, weight: .medium, design: .rounded))
                     }
                 }
@@ -96,9 +96,9 @@ struct HomeScreen: View {
                         ZStack {
                             RoundedRectangle(cornerRadius: 20)
                                 .frame(width: 170, height: 170)
-                                .foregroundColor(.gray)
+                                .foregroundColor(.blue)
                             Text("SFSymbol Mod")
-                                .foregroundColor(.black)
+                                .foregroundColor(.white)
                                 .font(.system(size: 20, weight: .medium, design: .rounded))
                     }
                 }
@@ -108,9 +108,9 @@ struct HomeScreen: View {
                         ZStack {
                             RoundedRectangle(cornerRadius: 20)
                                 .frame(width: 170, height: 170)
-                                .foregroundColor(.gray)
+                                .foregroundColor(.blue)
                             Text("Typography Mod")
-                                .foregroundColor(.black)
+                                .foregroundColor(.white)
                                 .font(.system(size: 20, weight: .medium, design: .rounded))
                     }
                 }
@@ -120,9 +120,9 @@ struct HomeScreen: View {
                         ZStack {
                             RoundedRectangle(cornerRadius: 20)
                                 .frame(width: 170, height: 170)
-                                .foregroundColor(.gray)
+                                .foregroundColor(.blue)
                             Text("Accessibility Mod")
-                                .foregroundColor(.black)
+                                .foregroundColor(.white)
                                 .font(.system(size: 20, weight: .medium, design: .rounded))
                     }
                 }
