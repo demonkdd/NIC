@@ -2,7 +2,11 @@
 //  DepthMod.swift
 //  NIC
 //
+<<<<<<< HEAD
 //  Created by Valor Miller on 5/27/25.
+=======
+//  Created by Valor Miller on 5/29/25.
+>>>>>>> main
 //
 import SwiftUI
 struct DepthMod: View {
@@ -11,8 +15,13 @@ struct DepthMod: View {
         InfoCard(title: "Disgestible Bite", description: "When a modal slides in, it tells the user they’re in a temporary view—not a full transition."),
         InfoCard(title: "Pro Tip:", description: "Motion should reinforce hierarchy—not exist just for flair."),
         InfoCard(title: "Try This:", description: "Walk through your screen transitions. Are they helping or just showing off?"),
+<<<<<<< HEAD
         InfoCard(title: "📏 Numerical Guidelines:", description: "Default animation timing: 0.3–0.5 seconds with ease-in-out.",
                 "Layering: use shadows at 10–20% opacity, elevation 2–6pt for depth."),
+=======
+//        InfoCard(title: "📏 Numerical Guidelines:", description: "Default animation timing: 0.3–0.5 seconds with ease-in-out.",
+//                "Layering: use shadows at 10–20% opacity, elevation 2–6pt for depth."),
+>>>>>>> main
         
     ]
     
@@ -63,4 +72,7 @@ struct DepthMod: View {
 #Preview {
     DepthMod()
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> main

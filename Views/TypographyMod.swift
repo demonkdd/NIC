@@ -2,7 +2,11 @@
 //  TypographyMod.swift
 //  NIC
 //
+<<<<<<< HEAD
 //  Created by Valor Miller on 5/27/25.
+=======
+//  Created by Valor Miller on 5/29/25.
+>>>>>>> main
 //
 import SwiftUI
 struct TypographyMod: View {
@@ -11,9 +15,15 @@ struct TypographyMod: View {
         InfoCard(title: "Disgestible Bite", description: "System font styles scale with user settings and maintain rhythm across screen sizes."),
         InfoCard(title: "Pro Tip:", description: "Use built-in text styles like Title1 or Body—avoid hardcoding font sizes."),
         InfoCard(title: "Try This:", description: "Switch your device to Large Text—does your layout still work without horizontal scrolling?"),
+<<<<<<< HEAD
         InfoCard(title: "📏 Numerical Guidelines:", description: "Use TextStyles: Title1 (28pt), Body (17pt), Caption1 (12pt).",
                  "Minimum line height: 120% of font size (e.g., 17pt → 20.4pt).",
                 "Use UIFontMetrics for scalable text."),
+=======
+//        InfoCard(title: "📏 Numerical Guidelines:", description: "Use TextStyles: Title1 (28pt), Body (17pt), Caption1 (12pt).",
+//                 "Minimum line height: 120% of font size (e.g., 17pt → 20.4pt).",
+//                "Use UIFontMetrics for scalable text."),
+>>>>>>> main
         
     ]
     

@@ -6,27 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		74A1D1042DBFB5A200718E7A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 74A1D0EE2DBFB5A100718E7A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 74A1D0F52DBFB5A100718E7A;
-			remoteInfo = NIC;
-		};
-		74A1D10E2DBFB5A200718E7A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 74A1D0EE2DBFB5A100718E7A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 74A1D0F52DBFB5A100718E7A;
-			remoteInfo = NIC;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		74A1D0F62DBFB5A100718E7A /* NIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NIC.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		74A1D1032DBFB5A200718E7A /* NICTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NICTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		74A1D10D2DBFB5A200718E7A /* NICUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NICUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -73,20 +54,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74A1D1002DBFB5A200718E7A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74A1D10A2DBFB5A200718E7A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -105,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				74A1D0F62DBFB5A100718E7A /* NIC.app */,
-				74A1D1032DBFB5A200718E7A /* NICTests.xctest */,
-				74A1D10D2DBFB5A200718E7A /* NICUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,52 +102,6 @@
 			productReference = 74A1D0F62DBFB5A100718E7A /* NIC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		74A1D1022DBFB5A200718E7A /* NICTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 74A1D11A2DBFB5A200718E7A /* Build configuration list for PBXNativeTarget "NICTests" */;
-			buildPhases = (
-				74A1D0FF2DBFB5A200718E7A /* Sources */,
-				74A1D1002DBFB5A200718E7A /* Frameworks */,
-				74A1D1012DBFB5A200718E7A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				74A1D1052DBFB5A200718E7A /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				74A1D1062DBFB5A200718E7A /* NICTests */,
-			);
-			name = NICTests;
-			packageProductDependencies = (
-			);
-			productName = NICTests;
-			productReference = 74A1D1032DBFB5A200718E7A /* NICTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		74A1D10C2DBFB5A200718E7A /* NICUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 74A1D11D2DBFB5A200718E7A /* Build configuration list for PBXNativeTarget "NICUITests" */;
-			buildPhases = (
-				74A1D1092DBFB5A200718E7A /* Sources */,
-				74A1D10A2DBFB5A200718E7A /* Frameworks */,
-				74A1D10B2DBFB5A200718E7A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				74A1D10F2DBFB5A200718E7A /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				74A1D1102DBFB5A200718E7A /* NICUITests */,
-			);
-			name = NICUITests;
-			packageProductDependencies = (
-			);
-			productName = NICUITests;
-			productReference = 74A1D10D2DBFB5A200718E7A /* NICUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +114,6 @@
 				TargetAttributes = {
 					74A1D0F52DBFB5A100718E7A = {
 						CreatedOnToolsVersion = 16.3;
-					};
-					74A1D1022DBFB5A200718E7A = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 74A1D0F52DBFB5A100718E7A;
-					};
-					74A1D10C2DBFB5A200718E7A = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 74A1D0F52DBFB5A100718E7A;
 					};
 				};
 			};
@@ -221,28 +132,12 @@
 			projectRoot = "";
 			targets = (
 				74A1D0F52DBFB5A100718E7A /* NIC */,
-				74A1D1022DBFB5A200718E7A /* NICTests */,
-				74A1D10C2DBFB5A200718E7A /* NICUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		74A1D0F42DBFB5A100718E7A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74A1D1012DBFB5A200718E7A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74A1D10B2DBFB5A200718E7A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,34 +154,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74A1D0FF2DBFB5A200718E7A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74A1D1092DBFB5A200718E7A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		74A1D1052DBFB5A200718E7A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 74A1D0F52DBFB5A100718E7A /* NIC */;
-			targetProxy = 74A1D1042DBFB5A200718E7A /* PBXContainerItemProxy */;
-		};
-		74A1D10F2DBFB5A200718E7A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 74A1D0F52DBFB5A100718E7A /* NIC */;
-			targetProxy = 74A1D10E2DBFB5A200718E7A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		74A1D1152DBFB5A200718E7A /* Debug */ = {
@@ -430,7 +298,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-188.NIC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NIC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -458,83 +326,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-188.NIC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NIC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		74A1D11B2DBFB5A200718E7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D8YAZLSYXR;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-188.NICTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NIC";
-			};
-			name = Debug;
-		};
-		74A1D11C2DBFB5A200718E7A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D8YAZLSYXR;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-188.NICTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NIC";
-			};
-			name = Release;
-		};
-		74A1D11E2DBFB5A200718E7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D8YAZLSYXR;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-188.NICUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NIC;
-			};
-			name = Debug;
-		};
-		74A1D11F2DBFB5A200718E7A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D8YAZLSYXR;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-188.NICUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NIC;
 			};
 			name = Release;
 		};
@@ -555,24 +351,6 @@
 			buildConfigurations = (
 				74A1D1182DBFB5A200718E7A /* Debug */,
 				74A1D1192DBFB5A200718E7A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		74A1D11A2DBFB5A200718E7A /* Build configuration list for PBXNativeTarget "NICTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				74A1D11B2DBFB5A200718E7A /* Debug */,
-				74A1D11C2DBFB5A200718E7A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		74A1D11D2DBFB5A200718E7A /* Build configuration list for PBXNativeTarget "NICUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				74A1D11E2DBFB5A200718E7A /* Debug */,
-				74A1D11F2DBFB5A200718E7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

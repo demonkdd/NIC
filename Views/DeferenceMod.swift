@@ -2,7 +2,11 @@
 //  DeferenceMod.swift
 //  NIC
 //
+<<<<<<< HEAD
 //  Created by Valor Miller on 5/27/25.
+=======
+//  Created by Valor Miller on 5/29/25.
+>>>>>>> main
 //
 import SwiftUI
 struct DeferenceMod: View {
@@ -11,8 +15,13 @@ struct DeferenceMod: View {
         InfoCard(title: "Disgestible Bite", description: "A photo app should showcase the photo, not distract with toolbars or shadows."),
         InfoCard(title: "Pro Tip:", description: "Use blur, transparency, and minimal UI elements to keep focus on the user’s content."),
         InfoCard(title: "Try This:", description: "Remove one decorative element from your screen—does it feel cleaner without losing meaning?"),
+<<<<<<< HEAD
         InfoCard(title: "📏 Numerical Guidelines:", description: "Keep UI overlays below 20–25% of screen height unless in focus.",
                 "Use system blur styles: systemMaterial, ultraThinMaterial."),
+=======
+//        InfoCard(title: "📏 Numerical Guidelines:", description: "Keep UI overlays below 20–25% of screen height unless in focus.",
+//                "Use system blur styles: systemMaterial, ultraThinMaterial."),
+>>>>>>> main
         
     ]
     

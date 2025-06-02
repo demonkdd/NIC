@@ -2,9 +2,14 @@
 //  PlatformTab.swift
 //  NIC
 //
+<<<<<<< HEAD
 //  Created by Valor Miller on 5/21/25.
 //
 
+=======
+//  Created by Valor Miller on 5/29/25.
+//
+>>>>>>> main
 import SwiftUI
 
 struct PlatformTab: View {
@@ -107,3 +112,7 @@ struct PlatformTab: View {
 #Preview {
     PlatformTab()
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> main

@@ -2,7 +2,11 @@
 //  ConsistencyMod.swift
 //  NIC
 //
+<<<<<<< HEAD
 //  Created by Valor Miller on 5/23/25.
+=======
+//  Created by Valor Miller on 5/29/25.
+>>>>>>> main
 //
 import SwiftUI
 struct ConsistencyMod: View {
@@ -61,3 +65,7 @@ struct ConsistencyMod: View {
 #Preview {
     ConsistencyMod()
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> main

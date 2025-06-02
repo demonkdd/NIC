@@ -11,6 +11,7 @@ struct SearchView: View {
     @StateObject var oo = SearchObserableObject()
     @State private var searchTerm = ""
 <<<<<<< HEAD
+<<<<<<< HEAD
     var body: some View {
         NavigationView {
             VStack {
@@ -76,6 +77,8 @@ struct SearchView: View {
         }
         
 =======
+=======
+>>>>>>> main
     var searchResults: [Topic] {
         if searchTerm.isEmpty {
             return oo.data
@@ -122,16 +125,22 @@ struct SearchView: View {
 //                Topic.name.lowercased().contains(searchTerm.lowercased())
 //            })
 //        }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
     }
 }
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         #Preview {
             SearchView()
         }
 =======
+=======
+>>>>>>> main
 
 
 
@@ -139,4 +148,7 @@ struct SearchView: View {
     SearchView()
         .environmentObject(BadgeManager())
 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main

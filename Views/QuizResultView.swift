@@ -11,20 +11,27 @@ struct QuizResultView: View {
     @EnvironmentObject var quizManager: QuizManager
     let scorePercentage: Double
     let passed: Bool
+    let failed: Bool
     let topic: Topic
 
     var body: some View {
         VStack(spacing: 24) {
-            Text(passed ? "🎉 You Passed!" : "Try Again")
-                .font(.largeTitle)
-                .fontWeight(.bold)
-
             Text("Score: \(Int(scorePercentage * 100))%")
                 .font(.title2)
 
-            if passed {
+            if passed  {
                 Label("Badge Earned", systemImage: "checkmark.seal.fill")
                     .foregroundColor(.green)
+                Text(passed ? "🎉 You Passed!" : "Try Again")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                scorePercentage > 80 ? Image("star") : nil
+            } else {
+                if failed {
+                    Label(failed ? "You Failed" :"Better luck next time", systemImage: "")
+                scorePercentage < 80 ? Image("broken-star") : nil
+                    
+                }
             }
 
             let sampleTopics = allTopics.map {
@@ -49,3 +56,4 @@ struct QuizResultView: View {
         .navigationTitle("Results")
     }
 }
+//below 80% is a fail

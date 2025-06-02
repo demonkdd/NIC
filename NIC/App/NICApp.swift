@@ -16,10 +16,16 @@ struct NICApp: App {
         WindowGroup {
            // DesignTopicsView()
 <<<<<<< HEAD
+<<<<<<< HEAD
             AppTabBarView()
 
 =======
             QuizPageView()
+//            TopicListView(topics: sampleTopics)
+>>>>>>> main
+=======
+            //QuizPageView()
+            PlatformTab()
 //            TopicListView(topics: sampleTopics)
 >>>>>>> main
                 .environmentObject(badgeManager)

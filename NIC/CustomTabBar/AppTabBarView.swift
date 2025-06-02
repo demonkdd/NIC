@@ -21,9 +21,13 @@ struct AppTabBarView: View {
                         Text("Home")
                     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                TopicListView(topics: sampleTopics)
 
+=======
+               TopicListView(topics: sampleTopics)
+>>>>>>> main
 =======
                TopicListView(topics: sampleTopics)
 >>>>>>> main

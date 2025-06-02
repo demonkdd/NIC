@@ -10,7 +10,10 @@ import Foundation
 
 class SearchObserableObject: ObservableObject {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 =======
 >>>>>>> main
     var data: [Topic] = [ Topic(name: "Accessibility", symbol: "figure.roll", description: "Design apps usable by everyone, including those with disabilities.", link: "https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/"),
@@ -23,8 +26,12 @@ class SearchObserableObject: ObservableObject {
                           Topic(name: "Icons", symbol: "app", description: "Use SF Symbols and system icons effectively and consistently.", link: "https://developer.apple.com/design/human-interface-guidelines/foundations/icons/"),
                           Topic(name: "Typography", symbol: "textformat", description: "Use text styles and typographic systems for clear communication.", link: "https://developer.apple.com/design/human-interface-guidelines/foundations/typography/"),
 <<<<<<< HEAD
+<<<<<<< HEAD
                           Topic(name: "User Control", symbol: "slider.horizontal.3", description: "Empower users by giving them control over actions and preferences.", link: "https://developer.apple.com/design/human-interface-guidelines/foundations/user-control/")    ]
 
+=======
+                          Topic(name: "User Control", symbol: "slider.horizontal.3", description: "Empower users by giving them control over actions and preferences.", link: "https://developer.apple.com/design/human-interface-guidelines/foundations/user-control/") ]
+>>>>>>> main
 =======
                           Topic(name: "User Control", symbol: "slider.horizontal.3", description: "Empower users by giving them control over actions and preferences.", link: "https://developer.apple.com/design/human-interface-guidelines/foundations/user-control/") ]
 >>>>>>> main

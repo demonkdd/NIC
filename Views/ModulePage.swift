@@ -2,9 +2,14 @@
 //  ModulePage.swift
 //  NIC
 //
+<<<<<<< HEAD
 //  Created by Valor Miller on 5/15/25.
 //
 
+=======
+//  Created by Valor Miller on 5/29/25.
+//
+>>>>>>> main
 import SwiftUI
 struct ModulePage: View {
     var moduleInfo: [InfoCard] = [
@@ -61,3 +66,7 @@ struct ModulePage: View {
     ModulePage()
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
