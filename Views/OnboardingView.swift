@@ -14,9 +14,9 @@ struct OnboardingView: View {
     
     
     let pages = [
-        OnboardingPage(title: "Welcome to NIC Guide", subtitle: "Master Human Interface Guidelines one principle at a time.", imageName: "sparkles"),
-        OnboardingPage(title: "Learn Design Fundamentals", subtitle: "Explore clarity, consistency, depth, and more.", imageName: "rectangle.stack.fill"),
-        OnboardingPage(title: "Earn Badges", subtitle: "Track your progress and collect badges for each principle.", imageName: "checkmark.seal.fill")
+        OnboardingPage(title: "Welcome to SeeD", subtitle: "Master Human Interface Guidelines one principle at a time.", imageName: "sparkles"),
+//        OnboardingPage(title: "Learn Design Fundamentals", subtitle: "Explore clarity, consistency, depth, and more.", imageName: "rectangle.stack.fill"),
+//        OnboardingPage(title: "Earn Badges", subtitle: "Track your progress and collect badges for each principle.", imageName: "checkmark.seal.fill")
     ]
     
     
@@ -99,11 +99,11 @@ struct OnboardingView: View {
                         if currentPage < pages.count - 1 {
                             currentPage += 1
                         } else {
-                            hasSeenOnboarding = true
+                            hasSeenOnboarding = false
                         }
                     }) {
-                        NavigationLink(destination: ProfilePageView()) {
-                            Text(currentPage < pages.count - 1 ? "Skip" : "Get Started")
+                        NavigationLink(destination: AppTabBarView()) {
+                            Text(currentPage < pages.count - 1 ? "Skip" : "Enter")
                                 .font(.headline)
                                 .padding()
                                 .frame(maxWidth: .infinity)

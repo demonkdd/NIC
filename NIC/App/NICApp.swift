@@ -14,7 +14,7 @@ struct NICApp: App {
 // @state object from quiz page view here
     var body: some Scene {
         WindowGroup {
-           AppTabBarView()
+           OnboardingView()
             //QuizPageView()
 //            TopicListView(topics: sampleTopics)
                 .environmentObject(badgeManager)
