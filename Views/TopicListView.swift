@@ -38,8 +38,13 @@ struct TopicListView: View {
                 }
             }
             .navigationTitle("Design Topics")
+            
+            NavigationLink("Knowledge Check", destination: QuizPageView())
+                .vibrantCard()
+                
+            }
         }
     }
-}
+
 
 

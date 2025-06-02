@@ -29,12 +29,12 @@ struct SearchView: View {
                         Text("Find a topic you would like to study")
                             .multilineTextAlignment(.center)
                     } else {
+                        //so this is where you find the search logic. search results is a [topic] and the navigation link is the result from the search the topic detail view is the page we want to bring up but to do that we need to feed it a topic and the topic we want is from the result
                         ForEach(searchResults, id: \.self) { result in
-                            NavigationLink {
-                                Text(result.name)
-                            } label: {
-                                Text(result.name)
+                            NavigationLink (result.name){
+                                TopicDetailView(topic: result)
                             }
+                            
                         }
                     }
                 }
@@ -67,3 +67,10 @@ struct SearchView: View {
     SearchView()
         .environmentObject(BadgeManager())
 }
+
+//{
+//   Text(result.name)
+//} label: {
+//   Text(result.name)
+//}
+//NavigationLink(searchResults, destination: [Topic])

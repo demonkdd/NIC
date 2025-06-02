@@ -13,16 +13,16 @@ class BadgeManager: ObservableObject {
 
     init() {
         self.badges = [
-            Badge(id: "Accessibility", name: "Accessibility", description: "Design for everyone.", imageName: "AccessibilityB"),
-            Badge(id: "Adaptivity", name: "Adaptivity", description: "Adjust to user needs.", imageName: "AdaptivityB"),
+            Badge(id: "Accessibility", name: "Accessibility", description: "Design for everyone.", imageName: "Acc Background Removed"),
+            Badge(id: "Adaptivity", name: "Adaptivity", description: "Adjust to user needs.", imageName: "A"),
             Badge(id: "Aesthetics", name: "Aesthetics", description: "Appealing visuals.", imageName: "AestheticB"),
             Badge(id: "Clarity", name: "Clarity", description: "Make things clear.", imageName: "ClarityB"),
             Badge(id: "Consistency", name: "Consistency", description: "Be consistent.", imageName: "ConsistencyB"),
             Badge(id: "Deference", name: "Deference", description: "Let content lead.", imageName: "DeferenceB"),
             Badge(id: "Depth", name: "Depth", description: "Use layered design.", imageName: "DepthB"),
             Badge(id: "Icons", name: "Icons", description: "Communicate with symbols.", imageName: "IconsB"),
-            Badge(id: "Typography", name: "Typography", description: "Communicate with type.", imageName: "TypeB"),
-            Badge(id: "User Control", name: "User Control", description: "Let users decide.", imageName: "UserControlB")
+            Badge(id: "Typography", name: "Typography", description: "Communicate with type.", imageName: "TYPO background Removed"),
+            Badge(id: "User Control", name: "User Control", description: "Let users decide.", imageName: "UserCOn Background Removed")
         ]
     }
 
