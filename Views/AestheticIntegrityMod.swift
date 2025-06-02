@@ -44,7 +44,7 @@ struct AestheticIntegrityMod: View {
         .fill(Color.blue)
             .frame(width: 350, height: 50)
             .overlay {
-                NavigationLink("Knowledge Check", destination: ProfilePageView())
+                NavigationLink("Knowledge Check", destination: QuizPageView())
                     .foregroundColor(.white)
                     .font(.headline)
                     .padding()
