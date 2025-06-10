@@ -99,10 +99,10 @@ struct OnboardingView: View {
                         if currentPage < pages.count - 1 {
                             currentPage += 1
                         } else {
-                            hasSeenOnboarding = false
+                            hasSeenOnboarding = true
                         }
                     }) {
-                        NavigationLink(destination: ProfilePageView()) {
+                        NavigationLink(destination: HomeScreen()) {
                             Text(currentPage < pages.count - 1 ? "Skip" : "Enter")
                                 .font(.headline)
                                 .padding()

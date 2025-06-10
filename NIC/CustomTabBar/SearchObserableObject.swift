@@ -9,7 +9,7 @@ import Foundation
 
 
 class SearchObserableObject: ObservableObject {
-    var data: [Topic] = [ Topic(name: "Accessibility", symbol: "figure.roll", description: "Design apps usable by everyone, including those with disabilities.", link: "https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/"),
+    var data: [Topic] = [ Topic(name: "AccessibilityMod", symbol: "figure.roll", description: "Design apps usable by everyone, including those with disabilities.", link: "https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/"),
                           Topic(name: "Adaptivity", symbol: "rectangle.3.offgrid.bubble.left", description: "Create interfaces that adapt to different screens and contexts.", link: "https://developer.apple.com/design/human-interface-guidelines/platforms/adaptivity/"),
                           Topic(name: "Aesthetic Integrity", symbol: "paintpalette", description: "Align appearance with function to enhance user trust and experience.", link: "https://developer.apple.com/design/human-interface-guidelines/foundations/aesthetic-integrity/"),
                           Topic(name: "Clarity", symbol: "eye", description: "Present content and actions clearly through typography, layout, and color.", link: "https://developer.apple.com/design/human-interface-guidelines/foundations/clarity/"),

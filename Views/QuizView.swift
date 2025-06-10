@@ -51,7 +51,7 @@ struct QuizView: View {
 
                     NavigationLink("Review Answers", destination: QuizReviewView(questions: viewModel.questions, userAnswers: viewModel.userAnswers))
 
-                    NavigationLink("Back to Topics", destination: TopicListView(topics: sampleTopics))
+                    NavigationLink("Back to Topics", destination: HomeScreen())
                 }
             }
         }

@@ -11,12 +11,13 @@ import SwiftUI
 @main
 struct NICApp: App {
     @StateObject private var badgeManager = BadgeManager()
+    @StateObject private var vm = QuizViewModel(questions: [])
 // @state object from quiz page view here
     var body: some Scene {
         WindowGroup {
            // DesignTopicsView()
             //QuizPageView()
-            LaunchScreen()
+            OnboardingView()
 //            TopicListView(topics: sampleTopics)
                 .environmentObject(badgeManager)
         }
