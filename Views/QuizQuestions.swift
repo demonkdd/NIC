@@ -1144,7 +1144,7 @@ struct QuizDatabase {
                         correctAnswer: "Usability"
                     )
                 ]
-        case "Depth"
+        case "Depth" :
             return [
                     QuizQuestion(
                         question: "What does “Depth” help communicate in an app interface?",
