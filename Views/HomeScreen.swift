@@ -233,17 +233,24 @@ struct HomeScreen: View {
             .padding()
             .ignoresSafeArea(edges: .bottom)
                 //       .navigationTitle(Text("Home"))
+          
             .navigationBarItems(leading:
-                                    Text("Home")
-                .font(.largeTitle.bold())
-            )
+                                    Button(action: {
+                //Navigation Link
+            }, label: {
+                Image(systemName: "bookmark")
+                    .font(.system(size: 20))
+            })
+                                )
             .navigationBarItems(trailing:
                                     Button(action: {
                 //Navigation link
             }, label: {
-                Image(systemName: "bookmark")
+                Image(systemName: "hexagon")
                     .symbolEffect(.scale.up.byLayer, options: .nonRepeating)
             })
+        
+                                
                                 )
 //.navigationBarTitleDisplayMode(.automatic)
 //            .toolbar {

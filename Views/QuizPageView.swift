@@ -27,6 +27,14 @@ struct QuizPageView: View {
                 //                Text("\(vm.questions.isEmpty)")
                 
                 //Text("is populated: \(!testQuestions.isEmpty)")
+                
+                Image(systemName: "lightbulb.max.fill")
+                    .font(.system(size: 100, weight: .bold, design: .default))
+                    .foregroundColor(.yellow)
+                    .padding(.bottom, 300)
+                
+
+                    
                 RoundedRectangle (cornerRadius: 20)
                     .fill(Color.blue)
                     .frame(width: 350, height: 50)

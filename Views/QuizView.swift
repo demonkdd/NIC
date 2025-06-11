@@ -38,7 +38,7 @@ struct QuizView: View {
                 }
             } else {
                 VStack(spacing: 16) {
-                    Text("Quiz Completed!")
+                    Text("Knowledge Check Completed!")
                         .font(.title)
 
                     Text("Score: \(viewModel.score) / \(viewModel.questions.count)")
