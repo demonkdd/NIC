@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct QuizPageView: View {
-   @StateObject private var vm = QuizViewModel(questions: [])
+    @StateObject private var vm = QuizViewModel(questions: [])
     @State private var showingConfirmation = false
     @State private var backgroundColor = Color.white
     @State private var quiz: QuizQuestion?
@@ -17,22 +17,23 @@ struct QuizPageView: View {
     var body: some View {
         NavigationStack {
             VStack(spacing: 10) {
-                Button("Load Questions") {
-                    testQuestions = QuizDatabase.getQuestions(for: testTopic )
-                }
+//                Button("Load Questions") {
+//                    testQuestions = QuizDatabase.getQuestions(for: testTopic )
+//                }
+//                
+//                Button("Load into vm") {
+//                    vm.questions = testQuestions
+//                }
+//                Text("\(vm.questions.isEmpty)")
                 
-                Button("Load into vm") {
-                    vm.questions = testQuestions
-                }
-                Text("\(vm.questions.isEmpty)")
                 
-                Text("is populated: \(!testQuestions.isEmpty)")
-                Button("Knowledge Check") {
+                //Text("is populated: \(!testQuestions.isEmpty)")
+                Button("Are you sure you would like to begin the knowledge check") {
                     showingConfirmation = true
-                    
+                    vm.questions = testQuestions
+                   
                 }
-                .frame(width: 300, height: 300)
-                .background(backgroundColor)
+                .vibrantCard()
                 .confirmationDialog("Would you like to start the Knowledge Check?", isPresented: $showingConfirmation) {
                     NavigationLink(destination: QuizView(topic: sampleTopics[0], viewModel: vm)) {
                         Text("Begin")
@@ -43,6 +44,7 @@ struct QuizPageView: View {
             }
             .onAppear {
 //                vm.questions = QuizDatabase.getQuestions(for: testTopic)
+                testQuestions = QuizDatabase.getQuestions(for: testTopic)
             }
         }
     }

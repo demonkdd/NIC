@@ -41,7 +41,6 @@ struct TopicListView: View {
             
             NavigationLink("Knowledge Check", destination: QuizPageView())
                 .vibrantCard()
-                
             }
         }
     }

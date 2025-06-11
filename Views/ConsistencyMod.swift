@@ -8,7 +8,7 @@ import SwiftUI
 struct ConsistencyMod: View {
     var moduleInfo: [InfoCard] = [
         InfoCard(title: "Definition", description: "Use familiar patterns, components, and system behaviors throughout your app."),
-        InfoCard(title: "Digestible Bite", description: "Apps that reuse standard icons and gestures (like tab bars or swipe-to-go-back) feel intuitive without extra learning."),
+        InfoCard(title: "Digestible Bite", description: "Apps that reuse standard SF Symbols and gestures (like tab bars or swipe-to-go-back) feel intuitive without extra learning."),
         InfoCard(title: "Pro Tip:", description: "Favor built-in elements over reinventing UI—consistency builds trust and speed."),
         InfoCard(title: "Try This:", description: "Look through your design: how many custom components duplicate standard behaviors?"),
         

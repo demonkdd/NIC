@@ -15,7 +15,7 @@ struct AccessibilityMod: View {
     var moduleInfo: [InfoCard] = [
         InfoCard(title: "Core Concept", description: "Design interfaces that work for people with visual, auditory, or physical impairments."),
         InfoCard(title: "Best Practices", description: "High contrast, scalable text, screen reader support, and Right-to-Left (RTL) layout support are part of inclusive design."),
-        InfoCard(title: "Pro Tip:", description: "Don’t rely on color alone to communicate meaning—use icons, text, or shapes too."),
+        InfoCard(title: "Pro Tip:", description: "Don’t rely on color alone to communicate meaning—use SF Symbols, text, or shapes too."),
         InfoCard(title: "Try This:", description: "Turn on VoiceOver or switch to an RTL language like Arabic—does your interface still work?"),
 //        InfoCard(title: "📏 Numerical Guidelines:", description: "Minimum contrast ratio: 4.5:1 for body text, 3:1 for large text.",
 //                 "Tap targets: 44pt × 44pt minimum.",

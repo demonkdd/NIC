@@ -18,24 +18,20 @@ struct ProfilePage: View {
     @State private var avatarItem: PhotosPickerItem?
     @State private var avatarImage: Image?
     var body: some View {
-        VStack {
-            
-            PhotosPicker("Select Avatar", selection: $avatarItem, matching: .images)
-            avatarImage?
-                .resizable()
-                .scaledToFit()
-                .frame(width: 300, height: 300)
-            
+        NavigationStack {
+            VStack {
+                
+                PhotosPicker("Select Avatar", selection: $avatarItem, matching: .images)
+                avatarImage?
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 300, height: 300)
+                
                 TextField("Name", text: $Name)
-                .vibrantCard()
-                TextField("Preferred Name", text: $PreferredName)
-                .vibrantCard()
-                TextField("Email", text: $Email)
-                .vibrantCard()
-                TextField("Pronouns", text: $Pronouns)
-                .vibrantCard()
-                Text("badges")
-            
+                    .vibrantCard()
+                NavigationLink("Badges", destination: BadgesView())
+                
+            }
         }
     }
 }

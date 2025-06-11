@@ -28,12 +28,7 @@ struct ProfilePageView: View {
                 
                 TextField("Name", text: $Name)
                     .vibrantCard()
-                TextField("Preferred Name", text: $PreferredName)
-                    .vibrantCard()
-                TextField("Email", text: $Email)
-                    .vibrantCard()
-                TextField("Pronouns", text: $Pronouns)
-                    .vibrantCard()
+                NavigationLink("Badges", destination: BadgesView())
                 HStack {
                     ProgressView(
                         value: Float(badgeManager.earnedBadgeIDs.count),

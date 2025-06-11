@@ -20,8 +20,8 @@ class QuizManager: ObservableObject {
         case "User Control": return "slider.horizontal.3"
         case "Deference": return "arrow.down.right"
         case "Adaptivity": return "rectangle.and.arrow.up.right.and.arrow.down.left.slash"
-        case "Aesthetics": return "sparkles"
-        case "Icons": return "square.grid.2x2"
+        case "Aesthetic Integritty": return "sparkles"
+        case "SF Symbols": return "square.grid.2x2"
         case "Depth": return "cube"
         default: return "questionmark"
         }

@@ -15,7 +15,7 @@ struct AppTabBarView: View {
     var body: some View {
         
             TabView(selection: $selection) {
-                ProfilePageView()
+                ProfilePage()
                     .tabItem {
                         Image(systemName: "house")
                         Text("Home")

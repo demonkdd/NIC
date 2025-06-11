@@ -12,12 +12,12 @@ import Foundation
 let allTopics: [String] = [
     "Accessibility",
     "Adaptivity",
-    "Aesthetics",
+    "Aesthetic Integritty",
     "Clarity",
     "Consistency",
     "Deference",
     "Depth",
-    "Icons",
+    "SF Symbols",
     "Typography",
     "User Control"
 ]

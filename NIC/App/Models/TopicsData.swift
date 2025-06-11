@@ -15,7 +15,7 @@ let designTopics: [Topic] = [
     Topic(name: "Accessibility", symbol: "figure.stand", description: "Design for all users.", link: ""),
     Topic(name: "Gestalt Principles", symbol: "eye", description: "Psychological patterns in design.", link: ""),
     Topic(name: "Motion Design", symbol: "waveform.path.ecg", description: "Use motion with purpose.", link: ""),
-    Topic(name: "Iconography", symbol: "star.circle", description: "Design and use icons effectively.", link: ""),
+    Topic(name: "Iconography", symbol: "star.circle", description: "Design and use SF Symbols effectively.", link: ""),
     Topic(name: "Dark Mode", symbol: "moon.fill", description: "Adapt designs to darker environments.", link: ""),
     Topic(name: "Design Tokens", symbol: "tag", description: "Systematize your visual language.", link: "")
 ]
