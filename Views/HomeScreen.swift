@@ -243,15 +243,21 @@ struct HomeScreen: View {
             })
                                 )
             .navigationBarItems(trailing:
-                                    Button(action: {
-                //Navigation link
-            }, label: {
-                Image(systemName: "hexagon")
-                    .symbolEffect(.scale.up.byLayer, options: .nonRepeating)
-            })
+                                    
+                                    NavigationLink( destination: Image(systemName: "hexagon")) {BadgesView()
+                }
+            //NavigationLink(value: BadgesView(), label:  Image(systemName: "hexagon"))
+                                
+                                //NavigationLink("LinkHere") {BadgesView()
+//                                label: {
+//                Image(systemName: "hexagon")
+//                    .symbolEffect(.scale.up.byLayer, options: .nonRepeating)
+//            }
+            
+            )
         
                                 
-                                )
+                    //)
 //.navigationBarTitleDisplayMode(.automatic)
 //            .toolbar {
 //                ToolbarItem(placement: .topBarTrailing) {
