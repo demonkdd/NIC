@@ -7,6 +7,7 @@
 import SwiftUI
 
 struct HomeScreen: View {
+    @EnvironmentObject var badgeManager: BadgeManager
     @StateObject var oo = SearchObserableObject()
     @State private var searchTerm = ""
     var searchResults: [Topic] {
@@ -244,7 +245,9 @@ struct HomeScreen: View {
                                 )
             .navigationBarItems(trailing:
                                     
-                                    NavigationLink( destination: Image(systemName: "hexagon")) {BadgesView()
+                                    NavigationLink( destination: BadgesView()) {
+                Image(systemName: "hexagon")
+                    .font(.system(size: 20))
                 }
             //NavigationLink(value: BadgesView(), label:  Image(systemName: "hexagon"))
                                 
@@ -298,4 +301,5 @@ struct HomeScreen: View {
 
 #Preview {
     HomeScreen()
+        .environmentObject(BadgeManager())
 }
