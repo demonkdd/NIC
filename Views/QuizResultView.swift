@@ -16,7 +16,7 @@ struct QuizResultView: View {
     
     var body: some View {
         NavigationView {
-            
+            //so since every quiz is using this page what is happing is that its remembering you got a badge but not the test you earned it so even if you're on a diffrent quiz it is displaying that you got a badge. What needs to be fixed is that it needs to understand what quiz its showing the results of if you got the badge, the correct badge, understand that you pass/failed this test and not mix results and also the percentages need to be altered slight cause even though it says you need 80% to pass you can pass with 50%
             VStack(spacing: 24) {
                 Text("Score: \(Int(scorePercentage * 100))%")
                     .font(.title2)
