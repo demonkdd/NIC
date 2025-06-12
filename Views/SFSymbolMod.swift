@@ -45,7 +45,7 @@ struct SFSymbolMod: View {
         .fill(Color.blue)
             .frame(width: 350, height: 50)
             .overlay {
-                NavigationLink("Knowledge Check", destination: QuizPageView())
+                NavigationLink("Knowledge Check", destination: SFSymbolQuizView())
                     .foregroundColor(.white)
                     .font(.headline)
                     .padding()

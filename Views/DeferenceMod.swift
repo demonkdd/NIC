@@ -45,7 +45,7 @@ struct DeferenceMod: View {
         .fill(Color.blue)
             .frame(width: 350, height: 50)
             .overlay {
-                NavigationLink("Knowledge Check", destination: QuizPageView())
+                NavigationLink("Knowledge Check", destination: DeferenceQuizView())
                     .foregroundColor(.white)
                     .font(.headline)
                     .padding()

@@ -47,7 +47,7 @@ struct LayoutMod: View {
         .fill(Color.blue)
             .frame(width: 350, height: 50)
             .overlay {
-                NavigationLink("Knowledge Check", destination: QuizPageView())
+                NavigationLink("Knowledge Check", destination: LayoutQuizView())
                     .foregroundColor(.white)
                     .font(.headline)
                     .padding()
