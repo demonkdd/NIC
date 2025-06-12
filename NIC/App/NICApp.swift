@@ -17,6 +17,7 @@ struct NICApp: App {
         WindowGroup {
            OnboardingView()
             //QuizPageView()
+            OnboardingView()
 //            TopicListView(topics: sampleTopics)
                 .environmentObject(badgeManager)
         }

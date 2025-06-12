@@ -38,13 +38,14 @@ struct UserControlMod: View {
                     }
                     
                 }
+                .navigationTitle(Text("User Control"))
             }
                 }
         RoundedRectangle (cornerRadius: 20)
         .fill(Color.blue)
             .frame(width: 350, height: 50)
             .overlay {
-                NavigationLink("Knowledge Check", destination: ProfilePageView())
+                NavigationLink("Knowledge Check", destination: QuizPageView())
                     .foregroundColor(.white)
                     .font(.headline)
                     .padding()

@@ -31,6 +31,6 @@ struct QuizReviewView: View {
             }
             .padding(.vertical, 6)
         }
-        .navigationTitle("Quiz Review")
+        .navigationTitle("Knowledge Check Review")
     }
 }

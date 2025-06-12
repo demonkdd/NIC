@@ -1,20 +1,19 @@
 //
-//  DepthMod.swift
+//  AestheticIntegrityMod.swift
 //  NIC
 //
-//  Created by Valor Miller on 5/29/25.
+//  Created by Valor Miller on 6/2/25.
 //
 import SwiftUI
-struct DepthMod: View {
+struct AestheticIntegrityMod: View {
     var moduleInfo: [InfoCard] = [
-        InfoCard(title: "Definition", description: "Use layering and motion to communicate spatial relationships and flow."),
-        InfoCard(title: "Disgestible Bite", description: "When a modal slides in, it tells the user they’re in a temporary view—not a full transition."),
-        InfoCard(title: "Pro Tip:", description: "Motion should reinforce hierarchy—not exist just for flair."),
-        InfoCard(title: "Try This:", description: "Walk through your screen transitions. Are they helping or just showing off?"),
-//        InfoCard(title: "📏 Numerical Guidelines:", description: "Default animation timing: 0.3–0.5 seconds with ease-in-out.",
-//                "Layering: use shadows at 10–20% opacity, elevation 2–6pt for depth."),
-        
-    ]
+        InfoCard(title: "Definition", description: "Visual and behavioral design should match the purpose of your app."),
+        InfoCard(title: "Digestible Bite", description: "A fitness tracker should feel energetic and data-driven, while a meditation app should feel calm and minimal."),
+        InfoCard(title: "Pro Tip:", description: "Don’t over-style—design should always support the function, not distract from it."),
+        InfoCard(title: "Try This:", description: "Ask: ‘Does the design emotionally match the task the user is trying to complete?’"),
+        InfoCard(title: "📏 Numerical Guidelines:", description: "Use restrained motion (e.g., 0.2–0.5 sec for most transitions)."),
+                 //"Visual hierarchy should prioritize primary content at the top 60% of the screen.")
+        ]
     
     
     var body: some View {
@@ -38,7 +37,7 @@ struct DepthMod: View {
                     }
                     
                 }
-                .navigationTitle(Text("Depth"))
+                .navigationTitle(Text("Aesthetic Integrity"))
             }
                 }
         RoundedRectangle (cornerRadius: 20)
@@ -62,5 +61,5 @@ struct DepthMod: View {
 
 
 #Preview {
-    DepthMod()
+    AestheticIntegrityMod()
 }

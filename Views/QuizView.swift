@@ -38,7 +38,7 @@ struct QuizView: View {
                 }
             } else {
                 VStack(spacing: 16) {
-                    Text("Quiz Completed!")
+                    Text("Knowledge Check Completed!")
                         .font(.title)
 
                     Text("Score: \(viewModel.score) / \(viewModel.questions.count)")
@@ -51,7 +51,7 @@ struct QuizView: View {
 
                     NavigationLink("Review Answers", destination: QuizReviewView(questions: viewModel.questions, userAnswers: viewModel.userAnswers))
 
-                    NavigationLink("Back to Topics", destination: TopicListView(topics: sampleTopics))
+                    NavigationLink("Back to Topics", destination: HomeScreen())
                 }
             }
         }

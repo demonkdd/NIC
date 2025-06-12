@@ -21,12 +21,21 @@ struct LaunchScreen: View {
             Button(action: {
                 isOnboardingViewActive = false
             }) {
-                Text("Start")
+                RoundedRectangle (cornerRadius: 20)
+                    .fill(Color.blue)
+                    .frame(width: 350, height: 50)
+                    .overlay {
+                        NavigationLink("Start", destination: HomeScreen())
+                            .foregroundColor(.white)
+                            .font(.headline)
+                            .padding()
+                    }
             }
         }
     }
 }
 
-#Preview {
-    LaunchScreen()
-}
+    #Preview {
+        LaunchScreen()
+    }
+
