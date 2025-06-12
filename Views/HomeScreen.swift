@@ -7,6 +7,7 @@
 import SwiftUI
 
 struct HomeScreen: View {
+    @EnvironmentObject var badgeManager: BadgeManager
     @StateObject var oo = SearchObserableObject()
     @State private var searchTerm = ""
     var searchResults: [Topic] {
@@ -243,15 +244,23 @@ struct HomeScreen: View {
             })
                                 )
             .navigationBarItems(trailing:
-                                    Button(action: {
-                //Navigation link
-            }, label: {
+                                    
+                                    NavigationLink( destination: BadgesView()) {
                 Image(systemName: "hexagon")
-                    .symbolEffect(.scale.up.byLayer, options: .nonRepeating)
-            })
+                    .font(.system(size: 20))
+                }
+            //NavigationLink(value: BadgesView(), label:  Image(systemName: "hexagon"))
+                                
+                                //NavigationLink("LinkHere") {BadgesView()
+//                                label: {
+//                Image(systemName: "hexagon")
+//                    .symbolEffect(.scale.up.byLayer, options: .nonRepeating)
+//            }
+            
+            )
         
                                 
-                                )
+                    //)
 //.navigationBarTitleDisplayMode(.automatic)
 //            .toolbar {
 //                ToolbarItem(placement: .topBarTrailing) {
@@ -292,4 +301,5 @@ struct HomeScreen: View {
 
 #Preview {
     HomeScreen()
+        .environmentObject(BadgeManager())
 }
