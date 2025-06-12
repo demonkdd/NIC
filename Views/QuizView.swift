@@ -11,7 +11,12 @@ struct QuizView: View {
     let topic: Topic
     @ObservedObject var viewModel: QuizViewModel
     @EnvironmentObject var badgeManager: BadgeManager
-
+    
+    var badgeImage: String {
+        let badge = badgeManager.badges.filter { $0.id == topic.name }.first!
+        return badge.imageName
+    }
+//Quiz is only take Accessibility as the only topic/badge to give out
     var body: some View {
         VStack(spacing: 20) {
             if !viewModel.isCompleted {
@@ -45,6 +50,8 @@ struct QuizView: View {
                         .font(.headline)
 
                     if badgeManager.hasEarnedBadge(forTopic: topic.name) {
+                        Image(badgeImage)
+                            .resizable()
                         Label("Badge Earned", systemImage: "checkmark.seal.fill")
                             .foregroundColor(.green)
                     }

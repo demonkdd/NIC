@@ -9,11 +9,17 @@ import SwiftUI
 
 struct QuizResultView: View {
     @EnvironmentObject var quizManager: QuizManager
+    @EnvironmentObject var badgeManager: BadgeManager
     let scorePercentage: Double
     let passed: Bool
     let failed: Bool
     let topic: Topic
     
+    var badgeImage: String {
+        let badge = badgeManager.badges.filter { $0.id == topic.name }.first!
+        return badge.imageName
+    }
+    //quizView is where the end result screen is  haaaaaaa
     var body: some View {
         NavigationView {
             //so since every quiz is using this page what is happing is that its remembering you got a badge but not the test you earned it so even if you're on a diffrent quiz it is displaying that you got a badge. What needs to be fixed is that it needs to understand what quiz its showing the results of if you got the badge, the correct badge, understand that you pass/failed this test and not mix results and also the percentages need to be altered slight cause even though it says you need 80% to pass you can pass with 50%
@@ -22,6 +28,7 @@ struct QuizResultView: View {
                     .font(.title2)
                 
                 if passed  {
+                    //Image(badgeImage)
                     Label("Badge Earned", systemImage: "checkmark.seal.fill")
                         .foregroundColor(.green)
                     Text(passed ? "🎉 You Passed!" : "Try Again")
@@ -60,3 +67,17 @@ struct QuizResultView: View {
     }
 }
 //below 80% is a fail
+
+
+// struct QuizResults {
+// let topic: String
+// let correctAnswers: Int
+// let totalQuestions: Int
+//var passed: Bool {
+// return Double(correctAnswers)/Double(totalQuestions) >=0.8
+// }
+// }<
+// var earnedBadges: Set<String> = [] e.g, "accessibility, layout"
+// if earnedBadges.contains(currentQuizTopic) {
+// showBadge()
+//}

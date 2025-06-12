@@ -12,7 +12,7 @@ struct AestheticIntegrityQuizView: View {
     @State private var showingConfirmation = false
     @State private var backgroundColor = Color.white
     @State private var quiz: QuizQuestion?
-    @State private var testTopic = Topic(name: "Accessibility", symbol: "", description: "", link: "")
+    @State private var testTopic = Topic(name: "Aesthetic Integrity", symbol: "", description: "", link: "")
     @State private var testQuestions: [QuizQuestion] = []
     var body: some View {
         NavigationStack {

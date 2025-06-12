@@ -10,19 +10,19 @@ import Foundation
 class BadgeManager: ObservableObject {
     @Published var earnedBadgeIDs: [String] = []
     @Published var badges: [Badge] = []
-
+//maybe have the badge icon let the user know how many badges they've already earned
     init() {
         self.badges = [
-            Badge(id: "Accessibility", name: "Accessibility", description: "Design for everyone.", imageName: "Acc Background Removed"),
-            Badge(id: "Aesthetic Integritty", name: "Aesthetic Integritty", description: "Appealing visuals.", imageName: "aest Background Removed"),
-            Badge(id: "Consistency", name: "Consistency", description: "Be consistent.", imageName: "image Background Removed"),
-            Badge(id: "Deference", name: "Deference", description: "Let content lead.", imageName: "Deference Background Removed"),
-            Badge(id: "Depth", name: "Depth", description: "Use layered design.", imageName: "Depth Background Removed"),
-            Badge(id: "SF Symbols", name: "SF Symbols", description: "Communicate with symbols.", imageName: "SFsym Background Removed"),
-            Badge(id: "Typography", name: "Typography", description: "Communicate with type.", imageName: "TYPO background Removed"),
-            Badge(id: "User Control", name: "User Control", description: "Let users decide.", imageName: "UserCOn Background Removed"),
-            Badge(id: "Colors", name: "Colors", description: "Use color wisely.", imageName: "color2 Background Removed"),
-            Badge(id: "Layout", name: "Layout", description: "Use layout wisely.", imageName: "layout Background Removed")
+            Badge(id: "Accessibility", name: "Accessibility", description: "Design for everyone.", imageName: "AccessibilityBadge"),
+            Badge(id: "Aesthetic Integritty", name: "Aesthetic Integritty", description: "Appealing visuals.", imageName: "AestheticIntegrityBadge"),
+            Badge(id: "Consistency", name: "Consistency", description: "Be consistent.", imageName: "ConsistencyBadge"),
+            Badge(id: "Deference", name: "Deference", description: "Let content lead.", imageName: "DeferenceBadge"),
+            Badge(id: "Depth", name: "Depth", description: "Use layered design.", imageName: "DepthBadge"),
+            Badge(id: "SF Symbols", name: "SF Symbols", description: "Communicate with symbols.", imageName: "SfSymbolsBadge"),
+            Badge(id: "Typography", name: "Typography", description: "Communicate with type.", imageName: "TypographyBadge"),
+            Badge(id: "User Control", name: "User Control", description: "Let users decide.", imageName: "UserControlBadge"),
+            Badge(id: "Colors", name: "Colors", description: "Use color wisely.", imageName: "ColorBadge"),
+            Badge(id: "Layout", name: "Layout", description: "Use layout wisely.", imageName: "LayoutBadge")
         ]
     }
 
