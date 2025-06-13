@@ -41,7 +41,7 @@ struct HomeScreen: View {
                                     //                                            center: .bottom,
                                     //                                            angle: .degrees(180)
                                     //                                        )
-                                    LinearGradient(colors: [.blue, .purple], startPoint: .bottomTrailing, endPoint: .topLeading)
+                                    LinearGradient(colors: [.blue, .teal], startPoint: .bottomTrailing, endPoint: .topLeading)
                                 )
                                 .frame(width: 170, height: 170)
                             //                                RoundedRectangle(cornerRadius: 20)
@@ -65,7 +65,7 @@ struct HomeScreen: View {
                                     //                                            center: .center,
                                     //                                            angle: .degrees(225) // you can adjust this angle for effect
                                     //                                        )
-                                    LinearGradient(colors:[.blue, .purple], startPoint: .bottomTrailing, endPoint: .topLeading)
+                                    LinearGradient(colors:[.blue, .teal], startPoint: .bottomTrailing, endPoint: .topLeading)
                                 )
                                 .frame(width: 170, height: 170)
                             
@@ -85,7 +85,7 @@ struct HomeScreen: View {
                                     //                                            center: .center,
                                     //                                            angle: .degrees(225) // you can adjust this angle for effect
                                     //                                        )
-                                    LinearGradient(colors:[.blue, .purple], startPoint: .bottomTrailing, endPoint: .topLeading)
+                                    LinearGradient(colors:[.blue, .teal], startPoint: .bottomTrailing, endPoint: .topLeading)
                                 )
                                 .frame(width: 170, height: 170)
                             
@@ -105,7 +105,7 @@ struct HomeScreen: View {
                                     //                                            center: .center,
                                     //                                            angle: .degrees(225) // you can adjust this angle for effect
                                     //                                        )
-                                    LinearGradient(colors:[.blue, .purple], startPoint: .bottomTrailing, endPoint: .topLeading)
+                                    LinearGradient(colors:[.blue, .teal], startPoint: .bottomTrailing, endPoint: .topLeading)
                                 )
                                 .frame(width: 170, height: 170)
                             
@@ -125,7 +125,7 @@ struct HomeScreen: View {
                                     //                                            center: .center,
                                     //                                            angle: .degrees(225) // you can adjust this angle for effect
                                     //                                        )
-                                    LinearGradient(colors:[.blue, .purple], startPoint: .bottomTrailing, endPoint: .topLeading)
+                                    LinearGradient(colors:[.blue, .teal], startPoint: .bottomTrailing, endPoint: .topLeading)
                                 )
                                 .frame(width: 170, height: 170)
                             
@@ -145,7 +145,7 @@ struct HomeScreen: View {
                                     //                                            center: .center,
                                     //                                            angle: .degrees(225) // you can adjust this angle for effect
                                     //                                        )
-                                    LinearGradient(colors:[.blue, .purple], startPoint: .bottomTrailing, endPoint: .topLeading)
+                                    LinearGradient(colors:[.blue, .teal], startPoint: .bottomTrailing, endPoint: .topLeading)
                                 )
                                 .frame(width: 170, height: 170)
                             
@@ -165,7 +165,7 @@ struct HomeScreen: View {
                                     //                                            center: .center,
                                     //                                            angle: .degrees(225) // you can adjust this angle for effect
                                     //                                        )
-                                    LinearGradient(colors:[.blue, .purple], startPoint: .bottomTrailing, endPoint: .topLeading)
+                                    LinearGradient(colors:[.blue, .teal], startPoint: .bottomTrailing, endPoint: .topLeading)
                                 )
                                 .frame(width: 170, height: 170)
                             
@@ -185,7 +185,7 @@ struct HomeScreen: View {
                                     //                                            center: .center,
                                     //                                            angle: .degrees(225) // you can adjust this angle for effect
                                     //                                        )
-                                    LinearGradient(colors:[.blue, .purple], startPoint: .bottomTrailing, endPoint: .topLeading)
+                                    LinearGradient(colors:[.blue, .teal], startPoint: .bottomTrailing, endPoint: .topLeading)
                                 )
                                 .frame(width: 170, height: 170)
                             
@@ -205,7 +205,7 @@ struct HomeScreen: View {
                                     //                                            center: .center,
                                     //                                            angle: .degrees(225) // you can adjust this angle for effect
                                     //                                        )
-                                    LinearGradient(colors:[.blue, .purple], startPoint: .bottomTrailing, endPoint: .topLeading)
+                                    LinearGradient(colors:[.blue, .teal], startPoint: .bottomTrailing, endPoint: .topLeading)
                                 )
                                 .frame(width: 170, height: 170)
                             

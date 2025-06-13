@@ -14,7 +14,7 @@ struct OnboardingView: View {
     
     
     let pages = [
-        OnboardingPage(title: "Welcome to SeeD", subtitle: "Seed is a learning tool that nurtures design understanding by making the HIG simple, clear & practical for Apple Devolopment Academy learners.", imageName: "Seed Logo"),
+        OnboardingPage(title: "Welcome to SEED", subtitle: "Seed is a learning tool that nurtures design understanding by making the HIG simple, clear & practical for Apple Devolopment Academy learners.", imageName: "SeedLogoNew"),
 //        OnboardingPage(title: "Learn Design Fundamentals", subtitle: "Explore clarity, consistency, depth, and more.", imageName: "rectangle.stack.fill"),
 //        OnboardingPage(title: "Earn Badges", subtitle: "Track your progress and collect badges for each principle.", imageName: "checkmark.seal.fill")
     ]
@@ -72,7 +72,7 @@ struct OnboardingView: View {
                     TabView(selection: $currentPage) {
                         ForEach(0..<pages.count, id: \.self) { index in
                             VStack(spacing: 20) {
-                                Image(systemName: pages[index].imageName)
+                                Image("BestSeedLogo")
                                     .resizable()
                                     .scaledToFit()
                                     .frame(height: 150)

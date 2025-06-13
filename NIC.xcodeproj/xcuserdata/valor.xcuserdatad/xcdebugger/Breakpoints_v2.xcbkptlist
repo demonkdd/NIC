@@ -20,28 +20,28 @@
             landmarkType = "24">
             <Locations>
                <Location
-                  uuid = "8BF83BA7-FF71-495F-B390-3F6F1BD86B63 - eb80eb8bdcd0fbe9"
+                  uuid = "8BF83BA7-FF71-495F-B390-3F6F1BD86B63 - e64e76574ac7a155"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.EmptyView, SwiftUI.ForEach&lt;Swift.Array&lt;NIC.Topic&gt;, NIC.Topic, SwiftUI.NavigationLink&lt;SwiftUI.Text, NIC.TopicDetailView&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0 in NIC.SearchView.body.getter : some"
                   moduleName = "NIC.debug.dylib"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/valor/Documents/NIC3.0/NIC/CustomTabBar/SearchView.swift"
+                  urlString = "file:///Users/valor/Documents/NIC-Most%20complete/NIC/CustomTabBar/SearchView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "33"
                   endingLineNumber = "33">
                </Location>
                <Location
-                  uuid = "8BF83BA7-FF71-495F-B390-3F6F1BD86B63 - 836524a04e7a19c8"
+                  uuid = "8BF83BA7-FF71-495F-B390-3F6F1BD86B63 - 8eabb97cd86d4334"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (NIC.Topic) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.Text, NIC.TopicDetailView&gt; in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.EmptyView, SwiftUI.ForEach&lt;Swift.Array&lt;NIC.Topic&gt;, NIC.Topic, SwiftUI.NavigationLink&lt;SwiftUI.Text, NIC.TopicDetailView&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0 in NIC.SearchView.body.getter : some"
                   moduleName = "NIC.debug.dylib"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/valor/Documents/NIC3.0/NIC/CustomTabBar/SearchView.swift"
+                  urlString = "file:///Users/valor/Documents/NIC-Most%20complete/NIC/CustomTabBar/SearchView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "34"
